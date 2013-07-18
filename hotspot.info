@@ -1,0 +1,10 @@
+name = Hotspot
+description = Gestion du champ Hotspot
+package = field
+core = 7.x
+scripts[] = hotspot.js
+stylesheets[all][] = hotspot.css
+files[] = hotspot.install
+files[] = hotspot.module 
+files[] = example.test
+dependencies[] = field
